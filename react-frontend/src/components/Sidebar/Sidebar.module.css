@@ -1,0 +1,40 @@
+@media (min-width: 1024px) {
+  .sidebarContainer {
+    display: inline-block;
+    width: 300px;
+    margin-right: 82px;
+    margin-top: 20px;
+  }
+  
+  .sidebar {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 150px;
+    margin-left: 126px;
+  }
+  
+  .menuSuperCategory {
+    font-weight: normal;
+  }
+  
+  .menuCategory {
+    color: rgb(0, 0, 0, 0.58);
+    margin: 10px 0px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .sidebarContainer {
+    display: none;
+  }
+  
+  .sidebar {
+    display: none;
+  }
+}
+
+
+
+
+

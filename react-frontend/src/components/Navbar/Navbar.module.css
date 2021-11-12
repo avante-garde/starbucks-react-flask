@@ -1,0 +1,22 @@
+.navbarContainer {
+  border: 1px solid #edebe9;
+}
+
+.navbar {
+  display: flex;
+  height: 50px;
+  width: 100%;
+  font-size: 0.9em;
+  font-weight: normal;
+  align-items: center;
+  background-color: #f9f9f9;
+  border-bottom: 1px solid #dbd9d7;
+}
+
+.navbarDisplace {
+  margin-left: 118px;
+}
+
+.navbarLinks {
+  margin: 0 10px;
+}
